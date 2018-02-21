@@ -1,0 +1,36 @@
+body {
+    color: white;
+}
+
+div:intro {
+    border: 2px solid gray;
+    padding: 2px;
+}
+
+
+h1 {
+    color: #000080;
+	text-align: center;
+}
+
+h3 {
+    color: #000080;
+	text-align:center;
+	font-size: 40px;
+	font-family:Georgia;
+}
+
+p {
+	color: green;
+	font-family:Georgia;
+	text-align: justify;
+	text-indent: 100px;
+	letter-spacing: 2px;
+	margin: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
