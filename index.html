@@ -62,7 +62,8 @@
 <br/>
 		 
 <td>		 
-<div class="navbar">
+<div class="navbar" id="myTopnav" >
+  <a href="javascript:void(0);" style="font-size:15px;" align="center" class="icon" onclick="myFunction()">&#9776;</a>
   <a href= "index.html">Home</a>
   <a href="views/politicians/page2.html">Politicians and their roles</a>
   <a href="views/Evils of politics/page3.html">Evils of politics</a>
@@ -105,5 +106,18 @@ The court's mandate is to protect the constitution, to settle disputes between t
 <p>
 Governments are formed through elections held every five years (unless otherwise specified), by parties that secure a majority of members in their respective lower houses (Lok Sabha in the central government and Vidhan Sabha in states).</div>
 </p>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "navbar") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar";
+    }
+}
+</script>
+
 </body>
 </html>
